@@ -1,0 +1,30 @@
+{"text": "<s>[INST] Как установить Python [/INST] Скачать Python 3.11 с python.org, установить, добавить в PATH, проверить командой python --version</s>"}
+{"text": "<s>[INST] Как создать виртуальное окружение [/INST] Выполнить python -m venv myenv, активировать myenv\\Scripts\\activate на Windows</s>"}
+{"text": "<s>[INST] pip install не работает [/INST] Обновить pip командой python -m pip install --upgrade pip, затем повторить установку</s>"}
+{"text": "<s>[INST] Как запустить Flask [/INST] flask run --host=0.0.0.0 --port=5000 после установки flask и FLASK_APP=app.py</s>"}
+{"text": "<s>[INST] Git clone ошибка [/INST] Проверить интернет, права доступа, повторить git clone https://github.com/user/repo.git</s>"}
+{"text": "<s>[INST] Как установить Node.js [/INST] Скачать LTS версию с nodejs.org, установить, проверить node --version и npm --version</s>"}
+{"text": "<s>[INST] npm install зависает [/INST] Очистить кэш npm cache clean --force, удалить node_modules, повторить npm install</s>"}
+{"text": "<s>[INST] Docker не запускается [/INST] Установить Docker Desktop, запустить сервис, проверить docker --version и docker run hello-world</s>"}
+{"text": "<s>[INST] Как запустить React [/INST] npx create-react-app my-app, cd my-app, npm start для запуска на localhost:3000</s>"}
+{"text": "<s>[INST] VSCode не видит Python [/INST] Ctrl+Shift+P → Python: Select Interpreter → выбрать нужный python.exe</s>"}
+{"text": "<s>[INST] Как сделать git commit [/INST] git add ., git commit -m \"Initial commit\", git push origin main</s>"}
+{"text": "<s>[INST] PostgreSQL не подключается [/INST] Проверить статус сервиса pg_ctl status, порт 5432, пароль в .env</s>"}
+{"text": "<s>[INST] Как установить PyTorch [/INST] pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121</s>"}
+{"text": "<s>[INST] Jupyter не открывается [/INST] jupyter notebook --generate-config, установить пароль, запустить jupyter notebook</s>"}
+{"text": "<s>[INST] Как создать requirements.txt [/INST] pip freeze > requirements.txt для сохранения всех зависимостей проекта</s>"}
+{"text": "<s>[INST] Redis не стартует [/INST] Скачать Redis для Windows, запустить redis-server.exe, проверить redis-cli ping</s>"}
+{"text": "<s>[INST] Как настроить .gitignore [/INST] Добавить node_modules/, __pycache__/, .env в .gitignore файл в корне проекта</s>"}
+{"text": "<s>[INST] MongoDB connection refused [/INST] Запустить mongod --dbpath data/, проверить порт 27017, подключиться mongo</s>"}
+{"text": "<s>[INST] Как запустить Django [/INST] python manage.py runserver 0.0.0.0:8000 после python manage.py migrate</s>"}
+{"text": "<s>[INST] ESLint ошибки [/INST] npm install eslint --save-dev, npx eslint --init, исправить ошибки в коде</s>"}
+{"text": "<s>[INST] Как установить VSCode extensions [/INST] Открыть Extensions (Ctrl+Shift+X), найти Python, Prettier, установить</s>"}
+{"text": "<s>[INST] Git branch не переключается [/INST] git stash сохранить изменения, git checkout branch-name, git stash pop</s>"}
+{"text": "<s>[INST] Как запустить npm test [/INST] npm install, npm test или npx jest для запуска тестов</s>"}
+{"text": "<s>[INST] Python модуль не найден [/INST] pip install module_name, проверить python -m pip list на наличие модуля</s>"}
+{"text": "<s>[INST] Как настроить SSH ключи [/INST] ssh-keygen -t rsa, cat ~/.ssh/id_rsa.pub скопировать в GitHub SSH keys</s>"}
+{"text": "<s>[INST] Docker image не строится [/INST] Проверить Dockerfile синтаксис, docker build -t myapp . повторить сборку</s>"}
+{"text": "<s>[INST] Как обновить pip [/INST] python -m pip install --upgrade pip для обновления pip до последней версии</s>"}
+{"text": "<s>[INST] Node version не меняется [/INST] Установить nvm, nvm install 18, nvm use 18 для смены версии Node.js</s>"}
+{"text": "<s>[INST] Как запустить mysql [/INST] mysqld --initialize, mysql -u root -p для подключения к MySQL серверу</s>"}
+{"text": "<s>[INST] PyCharm не видит venv [/INST] File → Settings → Project → Python Interpreter → Add Interpreter → Existing → путь к venv</s>"}
